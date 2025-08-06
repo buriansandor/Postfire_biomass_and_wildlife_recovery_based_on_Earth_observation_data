@@ -58,3 +58,20 @@ Where the interesting part is the mean values, as we can consider the maximum an
 
 
 ## Methodology for the fire in 2023 
+The analysis of the 2023 fire event follows a similar workflow, but utilizes Sentinel satellite imagery for improved spatial and temporal resolution. Sentinel images are processed to generate NDVI, NDWI, and NDBI indices, allowing for precise identification of burned areas and assessment of vegetation loss and recovery. By applying these spectral masks and calculating NDVI statistics over time, we can monitor post-fire biomass regeneration and evaluate the ecological impact of the 2023 fire.
+
+```mermaid
+flowchart TD
+    A[Sentinel Satellite Images] -->|Fire event| B{Filtering using masks}
+    B -->|subtract| D[NDWI mask]
+    B -->|subtract| E[NDBI mask]
+    F(calculate NDWI value of Sentinel)
+    G(calculate NDBI value of Sentinel)
+    F --> D
+    G --> E
+    D --> H[Calculete the new NDVI image]
+    E --> H
+    H --> I[Calculate the statistics and the mean of NDVI image time series]
+```
+
+![](plots/newplot%20(9).png)

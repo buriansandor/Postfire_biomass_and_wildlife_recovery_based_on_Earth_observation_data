@@ -29,7 +29,7 @@ flowchart TD
 
 As a result we get the images right before and after the fire event.
 
-![](plots/newplot (1).png)
+![](plots/newplot%20(1).png)
 
 ```mermaid
 flowchart TD
@@ -46,7 +46,7 @@ flowchart TD
     D --> H[Calculate the NDVI statistics of the image collection]
 ```
 
-![](plots/newplot (2).png)
+![](plots/newplot%20(2).png)
 
 After this point we can merge the two different plot.
 

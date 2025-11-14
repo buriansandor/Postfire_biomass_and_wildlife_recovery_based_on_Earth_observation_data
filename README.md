@@ -1,6 +1,6 @@
 # Postfire biomass and wildlife recovery based on Earth observation data
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d2Fkd-OIfSQLeh2B54iTpPRhotzEfvvJ?usp=sharing) [![Open in GitHub](https://img.shields.io/badge/Open%20in-GitHub-blue?logo=github)](greece_notebook_cleaned-sentinel&landsat589.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/buriansandor/Postfire_biomass_and_wildlife_recovery_based_on_Earth_observation_data/HEAD?urlpath=%2Fdoc%2Ftree%2Fgreece_notebook_cleaned.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d2Fkd-OIfSQLeh2B54iTpPRhotzEfvvJ?usp=sharing) [![Open in GitHub](https://img.shields.io/badge/Open%20in-GitHub-blue?logo=github)](greece_notebook_cleaned-sentinel&landsat589.ipynb)
 
 
 > ## Introduction
